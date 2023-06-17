@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+  color: #121212;
+  font-size: 1.75rem;
 }
 
 .App-header {

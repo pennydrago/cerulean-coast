@@ -1,12 +1,24 @@
+/* App component styles */
+
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
   background-color: #FFFFFF;
   color: #121212;
   font-size: 1.75rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-header {
+/* Main component styles */
+
+.main-content {
+  flex: 1;
+}
+
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -15,4 +27,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */

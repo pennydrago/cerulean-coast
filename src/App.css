@@ -23,6 +23,23 @@
   margin: 0 auto;
 }
 
+/* NavBar component styles */
+.navBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navLink {
+  color: #121212;
+  text-decoration: none;
+  padding: 0.5rem 1.25rem;
+  }
+
+.activeNavLink {
+  background-color: aqua;
+}
+
 /* Home component styles */
 .banner {
   background-image: url("./images/fabio-fistarol-vkLv1LP_xCw-unsplash.jpg");

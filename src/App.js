@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import Header from './Header';
+import NavBar from './NavBar';
 import Home from './Home';
 import Food from './Food';
 import Bookings from './Bookings';
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <NavBar />
       <main className="main-content">
         <Switch>
           <Route exact path="/food">

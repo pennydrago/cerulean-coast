@@ -3,7 +3,9 @@ import React from "react";
 function Bookings() {
   return (
     <div>
-      <h2>Bookings</h2>
+      <div className="container">
+        <h2>Bookings</h2>
+      </div>
     </div>
   );
 }

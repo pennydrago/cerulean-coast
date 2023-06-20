@@ -8,10 +8,7 @@
   font-size: 1.75rem;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  width: 67%;
-  max-width: 1200px;
-  margin: 0 auto;
+  flex-direction: column; 
 }
 
 /* Main content styles */
@@ -20,14 +17,18 @@
   flex: 1;
 }
 
+.container {
+  width: 67%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
+/* Home component styles */
+.banner {
+  background-image: url("./images/fabio-fistarol-vkLv1LP_xCw-unsplash.jpg");
+  background-position: 50% 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+}

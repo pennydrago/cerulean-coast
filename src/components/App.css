@@ -49,3 +49,41 @@
   padding-top: 25vh;
   padding-bottom: 25vh;
 }
+
+/* FoodCard component styles */
+.food-card {
+  border: solid 2px #121212;
+  display: flex;
+  align-items: center;
+  margin: 0rem 0rem 3rem;
+}
+
+.food-image {
+  max-width: 30%;
+  padding: 0 1rem;
+}
+
+.food-image img {
+ max-width: 100%;
+ }
+
+.food-info {
+  text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .App {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .App {
+    font-size: 1rem;
+  }
+  
+  .food-card {
+    display: block;
+    margin: 0rem 0rem 2rem;
+  }
+}

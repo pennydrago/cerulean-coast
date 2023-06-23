@@ -11,7 +11,7 @@ function Home() {
         <p>We aim to create a chilled atmosphere of delicious food and stunning views over the water.</p>
         {/* Open hours */}
         <h3>Open hours</h3>
-        <p>Tuesday to Sunday</p>
+        <p>Monday to Sunday</p>
         <p>12pm to 10pm</p>
         {/* Contact details */}
         <h3>Contact us</h3>

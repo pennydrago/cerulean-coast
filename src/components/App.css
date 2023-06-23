@@ -24,6 +24,7 @@
 }
 
 /* NavBar component styles */
+
 .navBar {
   display: flex;
   flex-wrap: wrap;
@@ -41,6 +42,7 @@
 }
 
 /* Home component styles */
+
 .banner {
   background-image: url("../images/fabio-fistarol-vkLv1LP_xCw-unsplash.jpg");
   background-position: 50% 35%;
@@ -51,8 +53,9 @@
 }
 
 /* FoodCard component styles */
+
 .food-card {
-  border: solid 2px #121212;
+  background-color: #E7E7E7;
   display: flex;
   align-items: center;
   margin: 0rem 0rem 3rem;
@@ -71,9 +74,46 @@
   text-align: left;
 }
 
+/* BookingForm component styles */
+
+#booking-form {
+  background-color: #E7E7E7;
+  width: 67%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+#booking-form label {
+  margin-right: 2rem;
+}
+
+#note {
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: aqua;
+  border-radius: 10px;
+  margin: 0.75rem 0rem;
+}
+
+#date, #time, #guests, button {
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+}
+
+/* Media query styles */
+
 @media screen and (max-width: 1000px) {
   .App {
     font-size: 1.25rem;
+  }
+
+  #date, #time, #guests, button {
+    font-size: 1em;
   }
 }
 
@@ -81,7 +121,7 @@
   .App {
     font-size: 1rem;
   }
-  
+
   .food-card {
     display: block;
     margin: 0rem 0rem 2rem;

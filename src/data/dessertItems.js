@@ -1,4 +1,4 @@
-export const dessertItems = [
+const dessertItems = [
   {
     id: 1,
     name: "Chocolate tart",
@@ -27,4 +27,6 @@ export const dessertItems = [
     imageSource: "../images/dessertItemImages/alexandra-kusper-88sNfcLB_KM-unsplash.jpg",
     imageAltText: "A vanilla custard tart topped with raspberries."
   }
-]
+];
+
+export default dessertItems;

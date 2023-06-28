@@ -12,11 +12,18 @@ export default function NavBar() {
           Home
         </NavLink>
         <NavLink
-          exact to="/food"
+          exact to="/meals"
           className="navLink"
           activeClassName="activeNavLink"
         >
-          Food
+          Meals
+        </NavLink>
+        <NavLink
+          exact to="/desserts"
+          className="navLink"
+          activeClassName="activeNavLink"
+        >
+          Desserts
         </NavLink>
         <NavLink
           exact to="/bookings"

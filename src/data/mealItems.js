@@ -1,4 +1,4 @@
-export const mealItems = [
+const mealItems = [
   {
     id: 1,
     name: "Vegetable salad",
@@ -34,4 +34,6 @@ export const mealItems = [
     imageSource: "../images/mealItemImages/razvan-cristea-V-MaZ44zMLk-unsplash.jpg",
     imageAltText: "A whole pizza topped with tomato sauce, melted mozzarella cheese and basil leaves"
   }
-]
+];
+
+export default mealItems;

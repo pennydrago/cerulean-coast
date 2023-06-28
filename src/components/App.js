@@ -1,4 +1,6 @@
 import './App.css';
+import dessertItems from '../data/dessertItems';
+import mealItems from '../data/mealItems';
 import {Route, Switch} from 'react-router-dom';
 import Header from './Header';
 import NavBar from './NavBar';
@@ -14,8 +16,11 @@ export default function App() {
       <NavBar />
       <main className="main-content">
         <Switch>
-          <Route exact path="/food">
-            <Food />
+          <Route exact path="/meals">
+            <Food foodItems={mealItems} title="Meals" />
+          </Route>
+          <Route exact path="/desserts">
+            <Food foodItems={dessertItems} title="Desserts" />
           </Route>
           <Route exact path="/bookings">
             <Bookings />

@@ -1,5 +1,4 @@
 import './App.css';
-import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import Header from './Header';
 import NavBar from './NavBar';
@@ -8,7 +7,7 @@ import Food from './Food';
 import Bookings from './Bookings';
 import Footer from './Footer';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Header />
@@ -33,5 +32,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -1,6 +1,4 @@
-import React from "react";
-
-function Home() {
+export default function Home() {
   return (
     <div>
       {/* Banner and about section */}
@@ -23,5 +21,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

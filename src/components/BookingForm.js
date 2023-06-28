@@ -1,6 +1,4 @@
-import React from 'react';
-
-function BookingForm() {
+export default function BookingForm() {
   return (
     <div>
       <form id="booking-form">
@@ -25,5 +23,3 @@ function BookingForm() {
     </div>
   );
 }
-
-export default BookingForm;

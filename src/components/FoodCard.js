@@ -1,7 +1,6 @@
-import React from 'react';
 import beachImage from "../images/fabio-fistarol-vkLv1LP_xCw-unsplash.jpg";
 
-function FoodCard() {
+export default function FoodCard() {
   return (
     <div className="food-card">
       <div className='food-image'>
@@ -14,5 +13,3 @@ function FoodCard() {
     </div>
   );
 }
-
-export default FoodCard;

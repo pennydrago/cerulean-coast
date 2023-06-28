@@ -1,7 +1,6 @@
-import React from "react";
 import FoodCard from "./FoodCard";
 
-function Food() {
+export default function Food() {
   return (
     <div>
       <div className="container">
@@ -12,5 +11,3 @@ function Food() {
     </div>
   );
 }
-
-export default Food;

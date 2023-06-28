@@ -1,7 +1,6 @@
-import React from "react";
 import BookingForm from "./BookingForm";
 
-function Bookings() {
+export default function Bookings() {
   return (
     <div>
       <div className="container">
@@ -11,5 +10,3 @@ function Bookings() {
     </div>
   );
 }
-
-export default Bookings;

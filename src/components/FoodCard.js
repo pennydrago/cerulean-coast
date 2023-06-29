@@ -1,14 +1,12 @@
-import beachImage from "../images/fabio-fistarol-vkLv1LP_xCw-unsplash.jpg";
-
-export default function FoodCard() {
+export default function FoodCard({foodItem}) {
   return (
     <div className="food-card">
       <div className='food-image'>
-        <img src={beachImage} alt="beach"/>
+        <img src={foodItem.imageSource} alt={foodItem.imageAltText} />
       </div>
       <div className="food-info">
-        <h3>Title of Food</h3>
-        <p>Description of food: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h3>{foodItem.name}</h3>
+        <p>{foodItem.description}</p>
       </div>
     </div>
   );

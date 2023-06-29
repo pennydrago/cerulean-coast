@@ -5,8 +5,9 @@ export default function Food({title, foodItems}) {
     <div>
       <div className="container">
         <h2>{title}</h2>
-        <FoodCard />
-        <FoodCard />
+        {foodItems.map((foodItem) =>
+          <FoodCard key={foodItem.id} foodItem={foodItem} />
+        )}
       </div>
     </div>
   );

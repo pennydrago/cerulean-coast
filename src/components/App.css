@@ -105,6 +105,23 @@ button {
   font-family: Arial, sans-serif;
 }
 
+/* BookingCard component styles */
+
+.booking-card {
+  background-color: lightblue;
+  margin: 0rem 0.25rem 3rem;
+  text-align: left;
+  padding: 0rem 1.5rem;
+}
+
+/* Bookings component styles */
+
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 /* Media query styles */
 
 @media screen and (max-width: 1000px) {
@@ -124,6 +141,10 @@ button {
 
   .food-card {
     display: block;
+    margin: 0rem 0rem 2rem;
+  }
+
+  .booking-card {
     margin: 0rem 0rem 2rem;
   }
 }

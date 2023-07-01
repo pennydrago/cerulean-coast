@@ -14,7 +14,7 @@ export default function BookingForm() {
           <input type="time" id="time" name="booking_time" min="12:00" max="22:00" required />
         </p>
         <p>
-          <label for="guests">Number of people (max. 20)*</label>
+          <label for="guests">Number of guests (max. 20)*</label>
           <input type="number" id="guests" name="booking_guests" min="1" max="20" size="5" required/>
         </p>
         <button>Submit</button>

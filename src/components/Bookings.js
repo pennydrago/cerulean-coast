@@ -8,7 +8,7 @@ export default function Bookings() {
         <h2>Bookings</h2>
         <BookingForm />
         <h3>Confirmed bookings</h3>
-        <div class="container-flex">
+        <div className="container-flex">
           <BookingCard />
           <BookingCard />
           <BookingCard />

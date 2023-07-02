@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function BookingForm() {
+export default function BookingForm({onBookingFormSubmit}) {
   
   const initialFormData = {
     booking_date: "",
@@ -22,8 +22,8 @@ export default function BookingForm() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log(formData);
-    setFormData(initialFormData)
+    onBookingFormSubmit(formData);
+    setFormData(initialFormData);
   }
     
   return (

@@ -12,8 +12,16 @@ export default function Bookings() {
       .then((bookings) => setBookingList(bookings))
   }, []);
 
-  function handleBookingFormSubmit(newBooking) {
-    setBookingList([...bookingList, newBooking]);
+  function handleBookingFormSubmit(bookingData) {    
+    fetch("http://localhost:4000/reservations", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(bookingData),
+    })
+      .then((response) => response.json())
+      .then((newBooking) => setBookingList([...bookingList, newBooking]))
   }
   
   return (

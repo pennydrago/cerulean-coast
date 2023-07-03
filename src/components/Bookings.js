@@ -7,7 +7,7 @@ export default function Bookings() {
   const [bookingList, setBookingList] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/bookings")
+    fetch("http://localhost:4000/reservations")
       .then((response) => response.json())
       .then((bookings) => setBookingList(bookings))
   }, []);

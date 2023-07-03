@@ -1,5 +1,5 @@
 {
-  "bookings": [
+  "reservations": [
     {
       "id": 1,
       "booking_date": "2023-07-27",
@@ -11,6 +11,12 @@
       "booking_date": "2023-07-19",
       "booking_time": "14:00",
       "booking_guests": 4
+    },
+    {
+      "id": 3,
+      "booking_date": "2023-10-15",
+      "booking_time": "12:00",
+      "booking_guests": 6
     }
   ]
 }

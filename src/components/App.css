@@ -119,10 +119,12 @@ button {
 /* BookingCard component styles */
 
 .booking-card {
-  background-color: lightblue;
+  background-color: #8ea0c8;
   margin: 0rem 0.25rem 3rem;
   text-align: left;
   padding: 0rem 1.5rem;
+  border-radius: 15px;
+  box-shadow: 10px 10px 2px #E7E7E7;
 }
 
 /* Bookings component styles */

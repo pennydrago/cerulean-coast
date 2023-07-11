@@ -106,9 +106,14 @@ h1, h2, h3 {
 button {
   padding: 0.5rem 1rem;
   border: none;
-  background-color: aqua;
+  background-color: #d3a888;
   border-radius: 10px;
   margin: 0.75rem 0rem;
+}
+
+button:hover {
+  background-color: #7dc4b6;
+  cursor: pointer;
 }
 
 #date, #time, #guests, button {

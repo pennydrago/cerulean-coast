@@ -23,6 +23,10 @@
   margin: 0 auto;
 }
 
+h1, h2, h3 {
+  color: #00388f;
+}
+
 /* NavBar component styles */
 
 .navBar {
@@ -38,7 +42,13 @@
   }
 
 .activeNavLink {
-  background-color: aqua;
+  background-color: #7dc4b6;
+}
+
+/* Footer component styles */
+
+#footer {
+  font-size: 1.1rem;
 }
 
 /* Home component styles */
@@ -127,6 +137,10 @@ button {
 @media screen and (max-width: 1000px) {
   .App {
     font-size: 1.25rem;
+  }
+
+  #footer {
+    font-size: 1rem;
   }
 
   #date, #time, #guests, button {

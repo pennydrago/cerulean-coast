@@ -1,4 +1,10 @@
+import {Link} from "react-router-dom";
+
 export default function Home() {
+  function scrollToTop() {
+    window.scrollTo(0,0)
+  }
+  
   return (
     <div>
       {/* Banner and about section */}
@@ -7,11 +13,16 @@ export default function Home() {
       <div className="container">
         <p>Our restaurant is located in Coastal Town, with spectacular views of the ocean. We welcome you to enjoy a meal from a variety of choices for lunch or dinner. We are also open for afternoon refreshments.</p>
         <p>We aim to create a chilled atmosphere of delicious food and stunning views over the water.</p>
+        <div className="container-flex-even">
+          <button className="button-secondary" onClick={scrollToTop}><Link className="button-link" to="/meals">View meals</Link></button>
+          <button className="button-secondary" onClick={scrollToTop}><Link className="button-link" to="/desserts">View desserts</Link></button>
+        </div>
         <hr />
         {/* Open hours */}
         <h3>Open hours</h3>
         <p>Monday to Sunday</p>
         <p>12pm to 10pm</p>
+        <button onClick={scrollToTop}><Link className="button-link" to="/bookings">Make a booking</Link></button>
         <hr />
         {/* Contact details */}
         <h3>Contact us</h3>

@@ -19,13 +19,13 @@ export default function Home() {
         </div>
         <hr />
         {/* Open hours */}
-        <h3>Open hours</h3>
+        <h2>Open hours</h2>
         <p>Monday to Sunday</p>
         <p>12pm to 10pm</p>
         <button onClick={scrollToTop}><Link className="button-link" to="/bookings">Make a booking</Link></button>
         <hr />
         {/* Contact details */}
-        <h3>Contact us</h3>
+        <h2>Contact us</h2>
         <p>25 Ocean Boulevard</p>
         <p>Coastal Town</p>
         <p>Phone: 2345 6789</p>

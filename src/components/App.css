@@ -23,7 +23,7 @@
   margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1, h2 {
   color: #00388f;
 }
 
@@ -85,9 +85,17 @@ h1, h2, h3 {
 /* FoodCard component styles */
 
 .food-card {
-  background-color: #E7E7E7;
+  background-color: #F3ECE6;
   display: flex;
   margin: 0rem 0rem 3rem;
+  transition: 0.5s;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 2px #888888;
+  cursor: pointer;
+  background-color: #E7DACD;
 }
 
 .food-image {
@@ -112,6 +120,7 @@ h1, h2, h3 {
   margin: 0 auto;
   padding: 1rem 2rem;
   text-align: left;
+  border: solid 2px #121212;
 }
 
 #booking-form label {

@@ -87,17 +87,17 @@ h1, h2, h3 {
 .food-card {
   background-color: #E7E7E7;
   display: flex;
-  align-items: center;
   margin: 0rem 0rem 3rem;
 }
 
 .food-image {
   max-width: 30%;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 .food-image img {
  max-width: 100%;
+ vertical-align: middle;
  }
 
 .food-info {

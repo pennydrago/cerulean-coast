@@ -15,7 +15,7 @@ const mealItems = [
   {
     id: 2,
     name: "Vegetable stirfry",
-    description: "Stir-fried vegatables, including broccoli, red capscicum, mushrooms, onions and spring onions; served with noodles",
+    description: "Stir-fried vegetables, including broccoli, red capscicum, mushrooms, onions and spring onions; served with noodles",
     imageSource: vegetableStirfryImage,
     imageAltText: "A plate containing a vegetable stirfry on noodles"
   },

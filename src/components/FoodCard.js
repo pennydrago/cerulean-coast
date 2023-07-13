@@ -24,7 +24,7 @@ export default function FoodCard({foodItem}) {
           <p>{foodItem.description}</p>
         </div>
       </div>
-      <FoodCardModal show={modal} onClose={handleModalHide} />
+      <FoodCardModal show={modal} onClose={handleModalHide} promotion={foodItem.promotion} price={foodItem.price} />
     </>
   );
 }

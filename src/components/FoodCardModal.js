@@ -1,4 +1,4 @@
-export default function FoodCardModal({show, onClose}) {
+export default function FoodCardModal({show, onClose, promotion, price}) {
   return (
     <div>
       { show ?
@@ -7,9 +7,8 @@ export default function FoodCardModal({show, onClose}) {
         <div className="modal">
 
           <main className="modal-content">
-            <p>Enjoy this salad for a light meal, ideal with sparkling water.</p> 
-            <p>Contains walnuts.</p>
-            <p>$18.50</p>
+            <p>{promotion}</p>
+            <p>{price}</p>
           </main>
 
           <footer>

@@ -1,4 +1,4 @@
-# Cerulean Coast restaurant
+# Cerulean Coast Restaurant
 
 ## This is a React single-page application for a restaurant's website.
 

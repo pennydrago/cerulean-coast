@@ -17,6 +17,12 @@
       "booking_date": "2023-10-15",
       "booking_time": "12:00",
       "booking_guests": 6
+    },
+    {
+      "booking_date": "2023-07-22",
+      "booking_time": "12:00",
+      "booking_guests": "2",
+      "id": 4
     }
   ]
 }

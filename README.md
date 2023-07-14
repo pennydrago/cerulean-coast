@@ -92,6 +92,17 @@ ctrl + c
 - [Jamie Juviler, HubSpot Blog, What Is a Modal and When Should I Use One?](https://blog.hubspot.com/website/modal-web-design)
 - [CodeBucks, DevDreaming, Creating an efficient modal component in React using hooks and portals](https://devdreaming.com/blogs/create-efficient-modal-react-portals)
 
+### Resources - Image credits
+- Photo by [Fabio Fistarol](https://unsplash.com/@fabiofistarol?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/vkLv1LP_xCw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Photo by [Louis Hansel](https://unsplash.com/de/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/MlPD-AzZYMg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Photo by [Hermes Rivera](https://unsplash.com/fr/@hermez777?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/k-sTTFdcZek?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Photo by [David B Townsend](https://unsplash.com/@dbtownsend?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/AnC569NdAJc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Photo by [Alyssa Kowalski](https://unsplash.com/@lockandkey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/kQhCD2q9_XI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Photo by [Razvan Cristea](https://unsplash.com/@focuspro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/V-MaZ44zMLk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Photo by [Razvan Mirel](https://unsplash.com/@razvan_mirel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/ufK6dVE4KHA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Photo by [Luke Pennystan](https://unsplash.com/@lukepennystan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/09FcOqmi8R0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Photo by [13on](https://unsplash.com/@13on?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/z4BJGODf6O4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Photo by [Alexandra Kusper](https://unsplash.com/@alexandrakusper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/88sNfcLB_KM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 ### License
 None

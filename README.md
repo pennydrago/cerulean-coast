@@ -1,3 +1,101 @@
+# Cerulean Coast restaurant
+
+## This is a React single-page application for a restaurant's website.
+
+### Description
+This single-page application was built using React, JavaScript, CSS and HTML. It is a website for a fictional restaurant that shows the restaurant's menu and booking form that allows people to submit a booking, which will be displayed on the website.
+
+### Technology stack
+- HTML
+- CSS
+- JavaScript
+- React
+
+### Instructions
+
+1. Install Node.js v16 and set as the default version:
+```bash
+nvm install 16
+nvm alias default 16
+nvm use 16
+```
+
+2. Update npm:
+```bash
+npm install -g npm
+```
+
+3. Install JSON server globally on your computer:
+```bash
+npm install -g json-server
+```
+
+4. Fork and clone this repository into a local repository on your computer. Navigate into the directory of the local repository.
+
+5. Get and install all the required dependences:
+```bash
+npm install
+```
+
+6. Run JSON server to host the application's db.json data file, which will be displayed on `http://localhost:4000`:
+```bash
+json-server --watch db.json --port 4000
+```
+
+7. Open a new terminal. Start the server for the application, which will be displayed on `http://localhost:3000`:
+```bash
+npm start
+```
+
+8. To stop the application server:
+```bash
+ctrl + c
+```
+
+9. To stop the JSON server:
+```bash
+ctrl + c
+```
+
+### Resources
+- [Create React App, Getting Started](https://create-react-app.dev/docs/getting-started)
+- [Create React App, Folder Structure](https://create-react-app.dev/docs/folder-structure/)
+- [web.dev, Add a web app manifest with Create React App](https://web.dev/add-manifest-react/)
+- [Google Search Central, Control your snippets in search results](https://developers.google.com/search/docs/appearance/snippet)
+- [Gemma Fontane, HubSpot Blog, Full List of Meta Tags, Why They Matter for SEO & How to Write Them](https://blog.hubspot.com/marketing/meta-tags)
+- [Solved by Flexbox, Sticky Footer](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/)
+- [Chris Coyier, CSS-Tricks, A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Remix/React Router, Quick Start](https://v5.reactrouter.com/web/guides/quick-start)
+- [Ibas Majeed, React Router: The Beginners Guide](https://ibaslogic.com/routing-with-react-router/)
+- [mdn web docs, background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+- [mdn web docs, CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+- [Remix/React Router, <NavLink>](https://v5.reactrouter.com/web/api/NavLink)
+- [Dave Ceddia, Using the image tag in React](https://daveceddia.com/react-image-tag/)
+- [Microsoft, Screen sizes and breakpoints](https://learn.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design)
+- [mdn web docs, Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form)
+- [mdn web docs, The HTML5 input types](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types)
+- [mdn web docs, HTML attribute: min](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/min)
+- [mdn web docs, HTML attribute: size](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size)
+- [Adobe Color, Contrast checker](https://color.adobe.com/create/color-contrast-analyzer)
+- [Adobe Color, Color blind safe tool](https://color.adobe.com/create/color-accessibility)
+- [mdn web docs, box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+- [Kolade Chris, freeCodeCamp news article](https://www.freecodecamp.org/news/html-horizontal-line-hr-tag-example/)
+- [mdn web docs, The Thematic Break (Horizontal Rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
+- [mdn web docs, cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
+- [Remix/React Router, <Link>](https://v5.reactrouter.com/web/api/Link)
+- [answer by Adele, stack overflow](https://stackoverflow.com/questions/58431946/why-does-my-react-router-link-bring-me-to-the-middle-of-a-page)
+- [mdn web docs, Window: scrollTo() method](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
+- [Web Zone, YouTube video](https://www.youtube.com/watch?v=yS9OZyyY4TE)
+- [color-hex, #e1d1c1 Color Hex](https://color-hex.org/color/e1d1c1)
+- [color-hex, #121212 Color Hex](https://www.color-hex.com/color/121212)
+- [Julie K, The Healthy Fish, Perfect Pairings: 5 Refreshing Drink Ideas to Serve With Fish](https://thehealthyfish.com/refreshing-drink-ideas-serve-fish/)
+- [Jamie Juviler, HubSpot Blog, What Is a Modal and When Should I Use One?](https://blog.hubspot.com/website/modal-web-design)
+- [CodeBucks, DevDreaming, Creating an efficient modal component in React using hooks and portals](https://devdreaming.com/blogs/create-efficient-modal-react-portals)
+
+
+### License
+None
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,21 +1,11 @@
-import { useState } from "react";
-import FoodCardModal from "./FoodCardModal";
-
-export default function FoodCard({foodItem}) {
+export default function FoodCard({foodItem, onModalShow}) {
   
-  const [modal, setModal] = useState(false);
-  
-  function handleModalShow() {
-    setModal(true);    
-  }
-
-  function handleModalHide() {
-    setModal(false);    
+  function handleClick() {
+    onModalShow(foodItem);
   }
   
   return (
-    <>
-      <div className="food-card" onClick={handleModalShow}>
+      <div className="food-card" onClick={handleClick}>
         <div className='food-image'>
           <img src={foodItem.imageSource} alt={foodItem.imageAltText} />
         </div>
@@ -24,7 +14,5 @@ export default function FoodCard({foodItem}) {
           <p>{foodItem.description}</p>
         </div>
       </div>
-      <FoodCardModal show={modal} onClose={handleModalHide} promotion={foodItem.promotion} price={foodItem.price} />
-    </>
   );
 }

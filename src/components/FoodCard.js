@@ -12,6 +12,7 @@ export default function FoodCard({foodItem, onModalShow}) {
         <div className="food-info">
           <h3>{foodItem.name}</h3>
           <p>{foodItem.description}</p>
+          <p>{foodItem.price}</p>
         </div>
       </div>
   );

@@ -117,6 +117,7 @@ h1, h2 {
 
 .food-info {
   text-align: left;
+  padding: 0rem 0rem 0.5rem 1rem;
 }
 
 /* FoodCard Modal component styles */

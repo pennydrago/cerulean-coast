@@ -19,7 +19,7 @@ export default function FoodList({foodItems}) {
       {foodItems.map((foodItem) =>
           <FoodCard key={foodItem.id} foodItem={foodItem} onModalShow={handleModalShow} />
       )}
-      {clickedFoodItem && <FoodCardModal onClose={handleModalHide} promotion={clickedFoodItem.promotion} price={clickedFoodItem.price} /> }
+      {clickedFoodItem && <FoodCardModal onClose={handleModalHide} promotion={clickedFoodItem.promotion} /> }
     </div>
   );
 }

@@ -1,10 +1,9 @@
-export default function FoodCardModal({onClose, promotion, price}) {
+export default function FoodCardModal({onClose, promotion}) {
   return (
       <div className="modal-container">
         <div className="modal">
           <main className="modal-content">
             <p>{promotion}</p>
-            <p>{price}</p>
           </main>
           <footer>
             <button onClick={onClose}>Close</button>

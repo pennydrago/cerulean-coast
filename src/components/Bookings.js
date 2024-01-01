@@ -1,6 +1,6 @@
 import BookingForm from "./BookingForm";
 import BookingsList from "./BookingsList";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Bookings() {
   

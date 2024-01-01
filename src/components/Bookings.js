@@ -6,22 +6,8 @@ export default function Bookings() {
   
   const [bookingList, setBookingList] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:4000/reservations")
-      .then((response) => response.json())
-      .then((bookings) => setBookingList(bookings))
-  }, []);
-
-  function handleBookingFormSubmit(bookingData) {    
-    fetch("http://localhost:4000/reservations", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(bookingData),
-    })
-      .then((response) => response.json())
-      .then((newBooking) => setBookingList([...bookingList, newBooking]))
+  function handleBookingFormSubmit(bookingData) {
+    setBookingList([...bookingList, bookingData])
   }
   
   return (

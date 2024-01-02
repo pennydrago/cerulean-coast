@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.acba8efa.css",
+    "main.js": "/static/js/main.2e2b579e.js",
+    "static/media/fabio-fistarol-vkLv1LP_xCw-unsplash.jpg": "/static/media/fabio-fistarol-vkLv1LP_xCw-unsplash.ce90b6ab7e4c33adb6c3.jpg",
+    "static/media/louis-hansel-MlPD-AzZYMg-unsplash.jpg": "/static/media/louis-hansel-MlPD-AzZYMg-unsplash.9b4d82b1ddf7109c35ef.jpg",
+    "static/media/razvan-cristea-V-MaZ44zMLk-unsplash.jpg": "/static/media/razvan-cristea-V-MaZ44zMLk-unsplash.eacfabc6e0fe65edc757.jpg",
+    "static/media/razvan-mirel-ufK6dVE4KHA-unsplash.jpg": "/static/media/razvan-mirel-ufK6dVE4KHA-unsplash.37f436d2ddb1a5d0112a.jpg",
+    "static/media/hermes-rivera-k-sTTFdcZek-unsplash.jpg": "/static/media/hermes-rivera-k-sTTFdcZek-unsplash.c61ade840a0be31f714c.jpg",
+    "static/media/david-b-townsend-AnC569NdAJc-unsplash.jpg": "/static/media/david-b-townsend-AnC569NdAJc-unsplash.54966a5a138ab78ffb5a.jpg",
+    "static/media/luke-pennystan-09FcOqmi8R0-unsplash.jpg": "/static/media/luke-pennystan-09FcOqmi8R0-unsplash.1ba13f5dd7961357407e.jpg",
+    "static/media/13on-z4BJGODf6O4-unsplash.jpg": "/static/media/13on-z4BJGODf6O4-unsplash.a286bea1b33d4318fcaa.jpg",
+    "static/media/alyssa-kowalski-kQhCD2q9_XI-unsplash.jpg": "/static/media/alyssa-kowalski-kQhCD2q9_XI-unsplash.08914574520be0dd1f93.jpg",
+    "static/media/alexandra-kusper-88sNfcLB_KM-unsplash.jpg": "/static/media/alexandra-kusper-88sNfcLB_KM-unsplash.59fb29eb7fffb0f2259c.jpg",
+    "index.html": "/index.html",
+    "main.acba8efa.css.map": "/static/css/main.acba8efa.css.map",
+    "main.2e2b579e.js.map": "/static/js/main.2e2b579e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acba8efa.css",
+    "static/js/main.2e2b579e.js"
+  ]
+}

@@ -11,7 +11,38 @@ This single-page application was built using React, JavaScript, CSS and HTML. It
 - JavaScript
 - React
 
-### Instructions
+### Instructions for phase 2 project without json server (to display bookings data stored in current browser session only)
+
+1. Install Node.js v16 and set as the default version:
+```bash
+nvm install 16
+nvm alias default 16
+nvm use 16
+```
+
+2. Update npm:
+```bash
+npm install -g npm
+```
+
+3. Fork and clone this repository (current version) into a local repository on your computer. Navigate into the directory of the local repository.
+
+4. Get and install all the required dependences:
+```bash
+npm install
+```
+
+5. In the terminal, start the server for the application, which will be displayed on `http://localhost:3000`:
+```bash
+npm start
+```
+
+6. To stop the application server:
+```bash
+ctrl + c
+```
+
+### Instructions for phase 2 project using json server (to persist bookings data to db.json data file)
 
 1. Install Node.js v16 and set as the default version:
 ```bash
@@ -30,7 +61,7 @@ npm install -g npm
 npm install -g json-server
 ```
 
-4. Fork and clone this repository into a local repository on your computer. Navigate into the directory of the local repository.
+4. Fork and clone this repository (at phase-2 tag) into a local repository on your computer. Navigate into the directory of the local repository.
 
 5. Get and install all the required dependences:
 ```bash

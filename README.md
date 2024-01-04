@@ -11,7 +11,7 @@ This single-page application was built using React, JavaScript, CSS and HTML. It
 - JavaScript
 - React
 
-### Instructions for phase 2 project without json server (to display bookings data stored in current browser session only)
+### Instructions for phase 2 project without json server (to display bookings data in browser only)
 
 1. Install Node.js v16 and set as the default version:
 ```bash

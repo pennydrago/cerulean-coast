@@ -29,7 +29,6 @@ export default function Home() {
         <p>25 Ocean Boulevard</p>
         <p>Coastal Town</p>
         <p>Phone: 2345 6789</p>
-        <p>Email: info@ceruleancoastrestaurant.com</p>
       </div>
     </div>
   );

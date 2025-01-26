@@ -88,6 +88,30 @@ ctrl + c
 ctrl + c
 ```
 
+### Instructions for release of project
+
+1. Ensure local repository is up-to-date with the remote repository:
+```bash
+git pull
+```
+
+2. Create `build` directory, which contains files that can be deployed as a static website:
+```bash
+npm run build
+```
+
+3. Delete `docs` directory.
+
+4. Rename `build` directory to `docs` directory.
+
+5. Check changes to files:
+   1. Discard change to CNAME file.
+   2. Stage all other changes.
+
+6. Commit changes.
+
+7. Push changes to remote repository.
+
 ### Resources
 - [Create React App, Getting Started](https://create-react-app.dev/docs/getting-started)
 - [Create React App, Folder Structure](https://create-react-app.dev/docs/folder-structure/)
